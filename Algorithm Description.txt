@@ -1,0 +1,10 @@
+Algorithm Description:
+
+The program begins by starting up and initializing the Sphero Spark 2 robot.
+Once the robot is ready, the program speaks the phrase "Ready, Set, Go" to indicate the start of the race.
+The robot then sets its heading to 0 degrees and turns on its main LED, which is blue.
+After a brief delay of 0.5 seconds, the robot sets its speed to 122 and enters a loop that will execute 5 times.
+Within each iteration of the loop, the robot spins 360 degrees clockwise for 8.16 seconds, pauses for another 0.5 seconds, and then spins 360 degrees counterclockwise for another 8.16 seconds. Another delay of 0.5 seconds follows before the loop repeats.
+After the fifth iteration of the loop, the robot stops moving and speaks the phrase "I am the winner".
+Finally, the robot fades its main LED from green to pink over a period of 3 seconds, then from blue to red over another 3 seconds, and finally from purple to light blue for another 3 seconds.
+Overall, this algorithm outlines the steps required for the Sphero Spark 2 robot to complete the figure-eight path of the "Accuracy" triathlon course, while also showcasing some additional functionality (such as speaking and LED fading) that may enhance the overall user experience.
